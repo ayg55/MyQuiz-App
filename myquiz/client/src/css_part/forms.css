@@ -1,0 +1,32 @@
+input,
+select {
+  height: 40px !important;
+  padding: 10px 20px !important;
+  border: 2px solid rgb(131, 130, 130) !important;
+  width: 100%;
+  border-radius: 2px !important;
+}
+
+button {
+  padding: 0px 25px;
+  border-radius: 2px;
+  height: 40px !important;
+}
+
+.dark-contained-btn {
+  background-color: var(--dark);
+  color: white;
+}
+
+.dark-outlined-btn {
+  background-color: white;
+  color: var(--dark);
+  border: 2px solid var(--dark);
+}
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+
+
+
